@@ -1,10 +1,15 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0f1c2e">
 <title>One City, One Journey</title><link rel="stylesheet" href="style.css"></head><body>
 <header><h1>One City, One Journey</h1><span id="badge">starting…</span></header>
+<svg class="strip" viewBox="0 0 600 64" aria-hidden="true" focusable="false">
+<path class="ln metro" pathLength="1" d="M12 40H170L206 18H394L430 40H588"/>
+<path class="ln feeder" pathLength="1" d="M490 40L518 56H588"/>
+<g class="sts"><circle style="--i:0" cx="12" cy="40" r="5"/><circle style="--i:1" cx="70" cy="40" r="5"/><circle style="--i:2" cx="125" cy="40" r="5"/><circle style="--i:3" cx="170" cy="40" r="5"/><circle style="--i:4" cx="206" cy="18" r="5"/><circle style="--i:5" cx="262" cy="18" r="5"/><circle class="x" style="--i:6" cx="300" cy="18" r="8"/><circle style="--i:7" cx="350" cy="18" r="5"/><circle style="--i:8" cx="394" cy="18" r="5"/><circle style="--i:9" cx="430" cy="40" r="5"/><circle style="--i:10" cx="490" cy="40" r="5"/><circle style="--i:11" cx="540" cy="40" r="5"/><circle style="--i:12" cx="588" cy="40" r="5"/><rect class="bs" style="--i:13" x="583" y="52" width="10" height="10" rx="2"/></g>
+</svg>
 <p class="small">Metro + BRTS + AMTS in one plan, one fare estimate.</p>
 <main>
-<div class="pick"><label>From<input id="q-from" type="search" placeholder="Station or bus stop" autocomplete="off"></label><div class="res" id="r-from"></div></div>
-<div class="pick"><label>To<input id="q-to" type="search" placeholder="Station or bus stop" autocomplete="off"></label><div class="res" id="r-to"></div></div>
+<div class="pick from"><label>From<input id="q-from" type="search" placeholder="Station or bus stop" autocomplete="off"></label><div class="res" id="r-from"></div></div>
+<div class="pick to"><label>To<input id="q-to" type="search" placeholder="Station or bus stop" autocomplete="off"></label><div class="res" id="r-to"></div></div>
 <div class="row"><label>Leave at<input id="time" type="time"></label><button id="go" class="go">Plan journey</button></div>
 <div id="pre" class="chips"></div>
 <div id="out"></div>

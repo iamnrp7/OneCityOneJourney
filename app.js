@@ -58,7 +58,7 @@ $('#saved').addEventListener('click', async e => { const o = e.target.closest('[
     $('#pre').innerHTML = PRE.map((p, i) => `<button data-i="${i}">${esc(p[0])}</button>`).join('') + '<button id="swap">⇄ Swap</button>';
     $('#pre').addEventListener('click', e => { const b = e.target.closest('button'); if (!b) return; if (b.id === 'swap') { const f = pickd.from; setPick('from', pickd.to); setPick('to', f); } else { const p = PRE[+b.dataset.i]; setPick('from', p[1]); setPick('to', p[2]); $('#time').value = p[3]; } go(); });
     window.__ready = 1;
-  } catch (e) { window.__err = e.message; $('#out').innerHTML = '<p class="gap">Load error: ' + esc(e.message) + '</p>'; console.error(e); }
+  } catch (e) { window.__err = e.message; $('#out').innerHTML = '<p class="gap">Load error: ' + esc(e.message) + (location.protocol === 'file:' ? '<br>You opened this file directly. Browsers block loading data files that way. Run <code>python3 -m http.server 8000</code> in this folder, then open http://localhost:8000' : '') + '</p>'; console.error(e); }
 })();
 const badge = $('#badge'), net = () => { if (badge.dataset.ready) badge.textContent = navigator.onLine ? 'Offline-ready' : 'Offline (cached)'; };
 if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').then(() => navigator.serviceWorker.ready).then(() => { badge.dataset.ready = 1; badge.className = 'ok'; net(); });
