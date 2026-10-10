@@ -1,0 +1,41 @@
+{
+ "source": "GMRC Fare Rules page",
+ "note": "No station-to-station fare chart in this source. Treat any fare amounts as sample data.",
+ "media": [
+  "QR ticket (paper/mobile app)",
+  "Contactless Smart Token",
+  "Contactless Smart Card (GMRC)",
+  "NCMC",
+  "Temporary paper ticket (AFC failure)",
+  "Special paper tickets (events)"
+ ],
+ "products": [
+  "Single journey",
+  "Return journey",
+  "Group ticket (more than 9 passengers)"
+ ],
+ "rules": {
+  "children_free": "Two children under 3 ft free with one adult",
+  "qr_paper_valid_min": 30,
+  "qr_mobile_valid_min": 180,
+  "qr_valid_from_issuing_station_only": true,
+  "max_time_in_paid_area_min": {
+   "same_station_exit": 20,
+   "other_station_exit": 240
+  },
+  "luggage": "25 kg, 80x50x30 cm",
+  "ncmc_discount_pct": 10,
+  "token_csc_phase1_only": "Token/GMRC card valid only within Phase 1 stations; not for travel between Phase 1 and Phase 2",
+  "digital_qr_failure": "Phone hang, loss, battery failure, switched-off device or network issue is treated as ticketless travel",
+  "screenshot_qr_invalid": true,
+  "refund": "Only unused QR paper ticket/token within 30 min at issuing station; digital QR and group QR non-refundable",
+  "mobile_qr_sold_only_in_scheduled_hours": true
+ },
+ "penalties_inr": {
+  "token_taken_out": 200,
+  "no_valid_ticket": "50 + max system fare",
+  "tailgating_or_jumping_gate": "50 + fare difference",
+  "overstay_paid_area": "10/hour, max 50",
+  "digital_qr_entry_exit_sequence_error": 150
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "effective": "2026-05-18",
+ "note": "Frequencies subject to change; ticket windows close 5 min before the last revenue train.",
+ "lines": {
+  "L1": {
+   "name": "Vastral Gam - Thaltej Gam (East-West)",
+   "freq_min": {
+    "weekday_peak_08-11_17-20": 7,
+    "weekday_offpeak_and_sat_peak": 10,
+    "sat_offpeak_and_sun": 12,
+    "06:20-07:00_and_22:00-23:00": 20
+   },
+   "first": {
+    "vastral-gam": "06:20",
+    "thaltej-gam": "06:20"
+   },
+   "last": {
+    "vastral-gam": "23:00",
+    "thaltej-gam": "23:00"
+   },
+   "minutes": 45,
+   "km": 21.1
+  },
+  "L2": {
+   "name": "APMC - Koteshwar Road (North-South)",
+   "freq_min": {
+    "06:16-22:00": 12,
+    "22:00-23:00": 20
+   },
+   "first": {
+    "apmc": "06:20",
+    "koteshwar-road": "06:16"
+   },
+   "last": {
+    "apmc": "23:10",
+    "koteshwar-road": "23:00"
+   },
+   "minutes": 35,
+   "km": 20.2
+  },
+  "L3": {
+   "name": "Koteshwar Road - Mahatma Mandir",
+   "avg_headway_min": {
+    "06:40-08:00": 40,
+    "08:00-21:00": 24
+   },
+   "first": {
+    "koteshwar-road": "06:55",
+    "mahatma-mandir": "06:40"
+   },
+   "last": {
+    "koteshwar-road": "21:20",
+    "mahatma-mandir": "21:00"
+   },
+   "minutes": 43,
+   "km": 20.87
+  },
+  "L4": {
+   "name": "GNLU - GIFT City",
+   "avg_headway_min": {
+    "07:36-10:18": 49,
+    "16:06-19:13": 57
+   },
+   "bus_only": "10:18-16:06",
+   "first": {
+    "gnlu": "07:36",
+    "gift-city": "07:48"
+   },
+   "last": {
+    "gnlu": "18:57",
+    "gift-city": "19:13"
+   },
+   "minutes": 6,
+   "km": 5.8
+  }
+ },
+ "through_running": "Timetable shows trains running APMC <-> Mahatma Mandir end to end (~78-79 min one way) plus GNLU<->GIFT City branch trips."
+}

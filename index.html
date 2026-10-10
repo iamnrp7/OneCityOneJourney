@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>One City, One Journey</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>One City, One Journey</h1><span id="badge">starting…</span></header>
+<p class="small">Metro + BRTS + AMTS in one plan, one fare estimate.</p>
+<main>
+<div class="pick"><label>From<input id="q-from" type="search" placeholder="Station or bus stop" autocomplete="off"></label><div class="res" id="r-from"></div></div>
+<div class="pick"><label>To<input id="q-to" type="search" placeholder="Station or bus stop" autocomplete="off"></label><div class="res" id="r-to"></div></div>
+<div class="row"><label>Leave at<input id="time" type="time"></label><button id="go" class="go">Plan journey</button></div>
+<div id="pre" class="chips"></div>
+<div id="out"></div>
+<div id="saved"></div>
+</main>
+<footer id="foot">REAL = published timetable / GTFS departure / BRTS fare chart. ESTIMATE = our assumption (bus ride time from straight-line distance at 18 km/h, East-West line from frequency only, 3 min metro boarding buffer, walk = straight line × 1.3 at 75 m/min). SAMPLE = invented placeholder (metro fare slab; GMRC publishes no chart). AMTS fares are not in the data and are excluded from the total. Bus data: AMTS / AJL / GTSL GTFS via BLRTransit, valid to 29 Mar 2027. Metro times: GMRC timetable w.e.f. 18 May 2026.<br>Build 3 (if you do not see preset chips above, you are running old files).</footer>
+<script src="lib/metro.js"></script><script src="lib/journey.js"></script><script src="app.js"></script></body></html>

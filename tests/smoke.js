@@ -1,0 +1,22 @@
+const Metro = require('../lib/metro.js'); const path = require('path');
+(async () => {
+  await Metro.load(path.join(__dirname, '../data/') );
+  const D = Metro.data(), T = Metro.toStr, ok = (c, m) => { console.log((c ? 'PASS ' : 'FAIL ') + m); if (!c) process.exitCode = 1; };
+  ok(Object.keys(D.stations).length === 54, '54 stations');
+  const j = Metro.journeys('mahatma-mandir', 'apmc', Metro.toMin('08:00'), 2);
+  console.log(j.map(x => `${T(x.depart)}->${T(x.arrive)} ${x.minutes}min est=${x.estimated}`));
+  ok(j.length === 2 && j[0].minutes >= 76 && j[0].minutes <= 84, 'MM->APMC ~78-83 min');
+  const k = Metro.journeys('sector-10a', 'paldi', Metro.toMin('10:00'), 1)[0];
+  ok(k && k.estimated, 'intermediate stations are flagged estimated: ' + (k && T(k.depart) + '->' + T(k.arrive)));
+  const c = Metro.connect('old-high-court', Metro.toMin('10:00'));
+  console.log(c.options.slice(0, 3).map(o => `${o.route} ${o.headsign} walk ${o.walk_min}m departs ${T(o.departs)} wait ${o.wait_min}`));
+  ok(c.options.length > 0 && !c.gap, 'Old High Court has bus connections');
+  const g = Metro.connect('mahatma-mandir', Metro.toMin('20:00'));
+  ok(g.gap, 'Mahatma Mandir flagged as last-mile gap (' + g.nearest_m + ' m)');
+  const rk = Metro.rakeChains(); console.log('implied rakes (assumed rotation):', rk.rakes, '| min scheduled headway:', Metro.minHeadway());
+  const s = Metro.simulateDelay({ tripId: 'N06', stationId: 'old-high-court', delayMin: 25 });
+  console.log(s.slice(0, 6).map(x => `${x.trip} ${T(x.depart)} max ${x.max_delay} arr ${x.arrival_delay} ${x.cause}`));
+  ok(s[0].trip === 'N06' && s.length > 1, 'a 25-min delay on N06 knocks on to ' + (s.length - 1) + ' later trips');
+  const s0 = Metro.simulateDelay({ tripId: 'N06', stationId: 'old-high-court', delayMin: 0 }); ok(s0.length === 0, 'no delay -> no knock-on');
+  const f = Metro.brtsFare('AMC_318', 'AMC_3'); console.log('BRTS fare sample', f);
+})();

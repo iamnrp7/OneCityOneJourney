@@ -1,0 +1,98 @@
+{
+ "apmc>old-high-court": {
+  "median": 14.0,
+  "min": 13,
+  "max": 15,
+  "n": 42
+ },
+ "old-high-court>motera-stadium": {
+  "median": 18.0,
+  "min": 18,
+  "max": 19,
+  "n": 42
+ },
+ "motera-stadium>koteshwar-road": {
+  "median": 3.0,
+  "min": 3,
+  "max": 3,
+  "n": 42
+ },
+ "koteshwar-road>gnlu": {
+  "median": 15.0,
+  "min": 15,
+  "max": 16,
+  "n": 42
+ },
+ "gnlu>infocity": {
+  "median": 9.0,
+  "min": 9,
+  "max": 9,
+  "n": 34
+ },
+ "infocity>sachivalaya": {
+  "median": 8.0,
+  "min": 8,
+  "max": 8,
+  "n": 34
+ },
+ "sachivalaya>mahatma-mandir": {
+  "median": 11.0,
+  "min": 11,
+  "max": 11,
+  "n": 34
+ },
+ "mahatma-mandir>sachivalaya": {
+  "median": 12.0,
+  "min": 11,
+  "max": 13,
+  "n": 34
+ },
+ "sachivalaya>infocity": {
+  "median": 7.0,
+  "min": 7,
+  "max": 8,
+  "n": 34
+ },
+ "infocity>gnlu": {
+  "median": 11.0,
+  "min": 10,
+  "max": 12,
+  "n": 34
+ },
+ "gnlu>koteshwar-road": {
+  "median": 16.0,
+  "min": 14,
+  "max": 17,
+  "n": 42
+ },
+ "koteshwar-road>motera-stadium": {
+  "median": 3.0,
+  "min": 3,
+  "max": 3,
+  "n": 42
+ },
+ "motera-stadium>old-high-court": {
+  "median": 18.0,
+  "min": 18,
+  "max": 19,
+  "n": 42
+ },
+ "old-high-court>apmc": {
+  "median": 14.0,
+  "min": 13,
+  "max": 14,
+  "n": 42
+ },
+ "gnlu>gift-city": {
+  "median": 6.0,
+  "min": 6,
+  "max": 7,
+  "n": 8
+ },
+ "gift-city>gnlu": {
+  "median": 7.0,
+  "min": 7,
+  "max": 7,
+  "n": 8
+ }
+}

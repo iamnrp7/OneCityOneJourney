@@ -1,0 +1,282 @@
+{
+ "source": "GMRC Lost and Found page (items found, Apr-Sep 2026)",
+ "office": "Apparel Park Depot, 079-22960123, 10:30-18:10, care@gujaratmetrorail.com",
+ "rules": [
+  "Report at any station or to Customer Care with details, address and contact",
+  "Perishable and soiled items are discarded at stations",
+  "Claiming needs valid government ID with address",
+  "Unclaimed articles disposed of after six months"
+ ],
+ "items": [
+  {
+   "date": "2026-09-23",
+   "station": "Kalupur Metro Station",
+   "station_id": "kalupur",
+   "item": "Wall hanging frames and steel crockery items"
+  },
+  {
+   "date": "2026-09-14",
+   "station": "Jivraj Park",
+   "station_id": "jivraj-park",
+   "item": "Anklet"
+  },
+  {
+   "date": "2026-09-14",
+   "station": "Gift City",
+   "station_id": "gift-city",
+   "item": "Bag with tiffin"
+  },
+  {
+   "date": "2026-09-11",
+   "station": "Gheekanta",
+   "station_id": "ghee-kanta",
+   "item": "Umbrella"
+  },
+  {
+   "date": "2026-09-11",
+   "station": "Sector 24",
+   "station_id": "sector-24",
+   "item": "Keys"
+  },
+  {
+   "date": "2026-09-10",
+   "station": "Sector 24",
+   "station_id": "sector-24",
+   "item": "Key bunch"
+  },
+  {
+   "date": "2026-09-09",
+   "station": "Kalupur Metro Station",
+   "station_id": "kalupur",
+   "item": "Wallet"
+  },
+  {
+   "date": "2026-09-01",
+   "station": "Thaltej Gam",
+   "station_id": "thaltej-gam",
+   "item": "Photography umbrella"
+  },
+  {
+   "date": "2026-07-27",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Umbrella"
+  },
+  {
+   "date": "2026-07-25",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Ladies purse"
+  },
+  {
+   "date": "2026-07-25",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Umbrella"
+  },
+  {
+   "date": "2026-07-24",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Rain coat"
+  },
+  {
+   "date": "2026-07-23",
+   "station": "Gujarat University",
+   "station_id": "gujarat-university",
+   "item": "Bag with earbud and clothes"
+  },
+  {
+   "date": "2026-07-23",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Bag with clothes"
+  },
+  {
+   "date": "2026-07-23",
+   "station": "Jivraj Park",
+   "station_id": "jivraj-park",
+   "item": "Bag with power bank and spectacles"
+  },
+  {
+   "date": "2026-07-22",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Jar"
+  },
+  {
+   "date": "2026-07-22",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Umbrella"
+  },
+  {
+   "date": "2026-07-17",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Skating sandal"
+  },
+  {
+   "date": "2026-07-15",
+   "station": "Jivraj Park",
+   "station_id": "jivraj-park",
+   "item": "Ladies purse"
+  },
+  {
+   "date": "2026-07-10",
+   "station": "Thaltej",
+   "station_id": "thaltej",
+   "item": "Chain"
+  },
+  {
+   "date": "2026-06-26",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Shoes"
+  },
+  {
+   "date": "2026-06-23",
+   "station": "Rabari Colony",
+   "station_id": "rabari-colony",
+   "item": "Ladies purse"
+  },
+  {
+   "date": "2026-06-16",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Bag with tiffin"
+  },
+  {
+   "date": "2026-06-16",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Tiffin"
+  },
+  {
+   "date": "2026-06-10",
+   "station": "Jivraj Park",
+   "station_id": "jivraj-park",
+   "item": "Ring"
+  },
+  {
+   "date": "2026-06-01",
+   "station": "Thaltej Gam",
+   "station_id": "thaltej-gam",
+   "item": "Helmet"
+  },
+  {
+   "date": "2026-05-31",
+   "station": "Gheekanta",
+   "station_id": "ghee-kanta",
+   "item": "Ladies purse"
+  },
+  {
+   "date": "2026-05-24",
+   "station": "Gheekanta",
+   "station_id": "ghee-kanta",
+   "item": "Ladies wrist watches"
+  },
+  {
+   "date": "2026-05-22",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Waist purse"
+  },
+  {
+   "date": "2026-05-21",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Bag with tiffin"
+  },
+  {
+   "date": "2026-05-19",
+   "station": "Gheekanta",
+   "station_id": "ghee-kanta",
+   "item": "Ladies slippers"
+  },
+  {
+   "date": "2026-05-18",
+   "station": "Koteshwar Road",
+   "station_id": "koteshwar-road",
+   "item": "Nose ring"
+  },
+  {
+   "date": "2026-05-10",
+   "station": "Apparel Park",
+   "station_id": "apparel-park",
+   "item": "Ladies purse"
+  },
+  {
+   "date": "2026-05-10",
+   "station": "Sector 24",
+   "station_id": "sector-24",
+   "item": "Wallet"
+  },
+  {
+   "date": "2026-05-04",
+   "station": "Gheekanta",
+   "station_id": "ghee-kanta",
+   "item": "Ladies purse"
+  },
+  {
+   "date": "2026-05-04",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Bag with clothes"
+  },
+  {
+   "date": "2026-04-30",
+   "station": "Vastral",
+   "station_id": "vastral",
+   "item": "Bag with clothes"
+  },
+  {
+   "date": "2026-04-20",
+   "station": "Dholakuva Circle",
+   "station_id": "dholakuva-circle",
+   "item": "Indian currency"
+  },
+  {
+   "date": "2026-04-20",
+   "station": "Jivraj Park",
+   "station_id": "jivraj-park",
+   "item": "Ladies purse"
+  },
+  {
+   "date": "2026-04-12",
+   "station": "Sector 10A",
+   "station_id": "sector-10a",
+   "item": "Smartphone"
+  },
+  {
+   "date": "2026-04-08",
+   "station": "Jivraj Park",
+   "station_id": "jivraj-park",
+   "item": "Indian currency"
+  },
+  {
+   "date": "2026-04-08",
+   "station": "Vastral Gam",
+   "station_id": "vastral-gam",
+   "item": "Bag with clothes"
+  },
+  {
+   "date": "2026-04-07",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Bag with clothes"
+  },
+  {
+   "date": "2026-04-07",
+   "station": "Vastral Gam",
+   "station_id": "vastral-gam",
+   "item": "Bag with shoes"
+  },
+  {
+   "date": "2026-04-03",
+   "station": "APMC",
+   "station_id": "apmc",
+   "item": "Phone"
+  }
+ ]
+}

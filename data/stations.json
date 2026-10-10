@@ -1,0 +1,943 @@
+{
+ "corridors": {
+  "NS": [
+   "apmc",
+   "jivraj-park",
+   "rajivnagar",
+   "shreyas",
+   "paldi",
+   "gandhigram",
+   "old-high-court",
+   "usmanpura",
+   "vijay-nagar",
+   "vadaj",
+   "ranip",
+   "sabarmati-rly-station",
+   "aec",
+   "sabarmati",
+   "motera-stadium",
+   "koteshwar-road",
+   "vishwakarma-college",
+   "tapovan-circle",
+   "narmada-canal",
+   "koba-circle",
+   "juna-koba",
+   "koba-gam",
+   "gnlu",
+   "raysan",
+   "randesan",
+   "dholakuva-circle",
+   "infocity",
+   "sector-1",
+   "sector-10a",
+   "sachivalaya",
+   "akshardham",
+   "juna-sachivalaya",
+   "sector-16",
+   "sector-24",
+   "mahatma-mandir"
+  ],
+  "EW": [
+   "vastral-gam",
+   "nirant-cross-road",
+   "vastral",
+   "rabari-colony",
+   "amraivadi",
+   "apparel-park",
+   "kankaria-east",
+   "kalupur",
+   "ghee-kanta",
+   "shahpur",
+   "old-high-court",
+   "sp-stadium",
+   "commerce-six-road",
+   "gujarat-university",
+   "gurukul-road",
+   "doordarshan-kendra",
+   "thaltej",
+   "thaltej-gam"
+  ],
+  "GIFT": [
+   "gnlu",
+   "pdeu",
+   "gift-city"
+  ]
+ },
+ "stations": [
+  {
+   "id": "apmc",
+   "name": "APMC",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 0
+   },
+   "timing_point": true,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 22.997744,
+   "lon": 72.537122,
+   "name_gu": "એ પી એમ સી"
+  },
+  {
+   "id": "jivraj-park",
+   "name": "Jivraj Park",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 1
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.005499,
+   "lon": 72.533493,
+   "name_gu": "જીવરાજ પાર્ક"
+  },
+  {
+   "id": "rajivnagar",
+   "name": "Rajivnagar",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 2
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.009723,
+   "lon": 72.536752,
+   "name_gu": "રાજીવ નગર"
+  },
+  {
+   "id": "shreyas",
+   "name": "Shreyas",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 3
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.013598,
+   "lon": 72.549222,
+   "name_gu": "શ્રેયસ"
+  },
+  {
+   "id": "paldi",
+   "name": "Paldi",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 4
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [
+    "AMTS"
+   ],
+   "lat": 23.018505,
+   "lon": 72.562408,
+   "name_gu": "પાલડી"
+  },
+  {
+   "id": "gandhigram",
+   "name": "Gandhigram",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 5
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.027096,
+   "lon": 72.569024,
+   "name_gu": "ગાંધીગ્રામ"
+  },
+  {
+   "id": "old-high-court",
+   "name": "Old High Court",
+   "lines": [
+    "NS",
+    "EW"
+   ],
+   "order": {
+    "NS": 6,
+    "EW": 10
+   },
+   "timing_point": true,
+   "interchange": true,
+   "integration_from_map": [],
+   "lat": 23.037289,
+   "lon": 72.567206,
+   "name_gu": "જૂની હાઇ કોર્ટ"
+  },
+  {
+   "id": "usmanpura",
+   "name": "Usmanpura",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 7
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.045837,
+   "lon": 72.564982,
+   "name_gu": "ઉસ્માનપુરા"
+  },
+  {
+   "id": "vijay-nagar",
+   "name": "Vijay Nagar",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 8
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.056191,
+   "lon": 72.562339,
+   "name_gu": "વિજય નગર"
+  },
+  {
+   "id": "vadaj",
+   "name": "Vadaj",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 9
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [
+    "BRTS"
+   ],
+   "lat": 23.067667,
+   "lon": 72.565759,
+   "name_gu": "વાડજ"
+  },
+  {
+   "id": "ranip",
+   "name": "Ranip",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 10
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [
+    "BRTS"
+   ],
+   "lat": 23.067674,
+   "lon": 72.574084,
+   "name_gu": "રાણીપ"
+  },
+  {
+   "id": "sabarmati-rly-station",
+   "name": "Sabarmati Railway Station",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 11
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [
+    "Railways"
+   ]
+  },
+  {
+   "id": "aec",
+   "name": "AEC",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 12
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [
+    "BRTS"
+   ],
+   "lat": 23.075109,
+   "lon": 72.593291,
+   "name_gu": "એ ઇ સી"
+  },
+  {
+   "id": "sabarmati",
+   "name": "Sabarmati",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 13
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [
+    "BRTS"
+   ],
+   "lat": 23.08563,
+   "lon": 72.592206,
+   "name_gu": "સાબરમતી"
+  },
+  {
+   "id": "motera-stadium",
+   "name": "Motera Stadium",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 14
+   },
+   "timing_point": true,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.096773,
+   "lon": 72.596692,
+   "name_gu": "મોટેરા સ્ટેડિયમ"
+  },
+  {
+   "id": "koteshwar-road",
+   "name": "Koteshwar Road",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 15
+   },
+   "timing_point": true,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.103111,
+   "lon": 72.602133,
+   "name_gu": "કોટેશ્વર રોડ"
+  },
+  {
+   "id": "vishwakarma-college",
+   "name": "Vishwakarma College",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 16
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.1142,
+   "lon": 72.608386,
+   "name_gu": "વિશ્વકર્મા કોલેજ"
+  },
+  {
+   "id": "tapovan-circle",
+   "name": "Tapovan Circle",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 17
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.120127,
+   "lon": 72.615799,
+   "name_gu": "તપોવન સર્કલ"
+  },
+  {
+   "id": "narmada-canal",
+   "name": "Narmada Canal",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 18
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.125146,
+   "lon": 72.622098,
+   "name_gu": "નર્મદા કેનાલ"
+  },
+  {
+   "id": "koba-circle",
+   "name": "Koba Circle",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 19
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.132251,
+   "lon": 72.631042,
+   "name_gu": "કોબા સર્કલ"
+  },
+  {
+   "id": "juna-koba",
+   "name": "Juna Koba",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 20
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.141972,
+   "lon": 72.638612,
+   "name_gu": "જૂના કોબા"
+  },
+  {
+   "id": "koba-gam",
+   "name": "Koba Gam",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 21
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.14761,
+   "lon": 72.643905,
+   "name_gu": "કોબા ગામ"
+  },
+  {
+   "id": "gnlu",
+   "name": "GNLU",
+   "lines": [
+    "NS",
+    "GIFT"
+   ],
+   "order": {
+    "NS": 22,
+    "GIFT": 0
+   },
+   "timing_point": true,
+   "interchange": true,
+   "integration_from_map": [],
+   "lat": 23.154472,
+   "lon": 72.647469,
+   "name_gu": "જી એન એલ યુ"
+  },
+  {
+   "id": "raysan",
+   "name": "Raysan",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 23
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.166395,
+   "lon": 72.648325,
+   "name_gu": "રાયસન"
+  },
+  {
+   "id": "randesan",
+   "name": "Randesan",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 24
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.179084,
+   "lon": 72.64729,
+   "name_gu": "રાંદેસણ"
+  },
+  {
+   "id": "dholakuva-circle",
+   "name": "Dholakuva Circle",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 25
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.185945,
+   "lon": 72.64332,
+   "name_gu": "ધોળાકુવા સર્કલ"
+  },
+  {
+   "id": "infocity",
+   "name": "Infocity",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 26
+   },
+   "timing_point": true,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.192257,
+   "lon": 72.639713,
+   "name_gu": "ઇન્ફોસિટી"
+  },
+  {
+   "id": "sector-1",
+   "name": "Sector 1",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 27
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.204908,
+   "lon": 72.643152,
+   "name_gu": "સેક્ટર-1"
+  },
+  {
+   "id": "sector-10a",
+   "name": "Sector 10A",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 28
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.211484,
+   "lon": 72.650193,
+   "name_gu": "સેક્ટર-10એ"
+  },
+  {
+   "id": "sachivalaya",
+   "name": "Sachivalaya",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 29
+   },
+   "timing_point": true,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.215069,
+   "lon": 72.658751,
+   "name_gu": "સચિવાલય"
+  },
+  {
+   "id": "akshardham",
+   "name": "Akshardham",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 30
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.223677,
+   "lon": 72.664182
+  },
+  {
+   "id": "juna-sachivalaya",
+   "name": "Juna Sachivalaya",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 31
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.228926,
+   "lon": 72.659415
+  },
+  {
+   "id": "sector-16",
+   "name": "Sector 16",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 32
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.233883,
+   "lon": 72.650166
+  },
+  {
+   "id": "sector-24",
+   "name": "Sector 24",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 33
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.238508,
+   "lon": 72.641478
+  },
+  {
+   "id": "mahatma-mandir",
+   "name": "Mahatma Mandir",
+   "lines": [
+    "NS"
+   ],
+   "order": {
+    "NS": 34
+   },
+   "timing_point": true,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.233941,
+   "lon": 72.633871
+  },
+  {
+   "id": "vastral-gam",
+   "name": "Vastral Gam",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 0
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 22.99714,
+   "lon": 72.667391,
+   "name_gu": "વસ્ત્રાલ ગામ"
+  },
+  {
+   "id": "nirant-cross-road",
+   "name": "Nirant Cross Road",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 1
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 22.999717,
+   "lon": 72.658889,
+   "name_gu": "નિરંત ક્રોસ રોડ"
+  },
+  {
+   "id": "vastral",
+   "name": "Vastral",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 2
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.003599,
+   "lon": 72.647594,
+   "name_gu": "વસ્ત્રાલ"
+  },
+  {
+   "id": "rabari-colony",
+   "name": "Rabari Colony",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 3
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.00547,
+   "lon": 72.635406,
+   "name_gu": "રબારી કોલોની"
+  },
+  {
+   "id": "amraivadi",
+   "name": "Amraivadi",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 4
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.007667,
+   "lon": 72.628728,
+   "name_gu": "અમરીવાડી"
+  },
+  {
+   "id": "apparel-park",
+   "name": "Apparel Park",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 5
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.01067,
+   "lon": 72.61801,
+   "name_gu": "એપરલ પાર્ક"
+  },
+  {
+   "id": "kankaria-east",
+   "name": "Kankaria East",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 6
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [
+    "Railways"
+   ],
+   "lat": 23.015457,
+   "lon": 72.607002
+  },
+  {
+   "id": "kalupur",
+   "name": "Kalupur Metro Station",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 7
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.024691,
+   "lon": 72.603145,
+   "name_gu": "કાલુપુર રેલ્વે સ્ટેશન"
+  },
+  {
+   "id": "ghee-kanta",
+   "name": "Ghee Kanta",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 8
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.028794,
+   "lon": 72.586775,
+   "name_gu": "ઘીકાંટા"
+  },
+  {
+   "id": "shahpur",
+   "name": "Shahpur",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 9
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.03921,
+   "lon": 72.581033,
+   "name_gu": "શાહપુર"
+  },
+  {
+   "id": "sp-stadium",
+   "name": "SP Stadium",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 11
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [
+    "Railways"
+   ],
+   "lat": 23.039841,
+   "lon": 72.561677,
+   "name_gu": "સ્ટેડિયમ"
+  },
+  {
+   "id": "commerce-six-road",
+   "name": "Commerce Six Road",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 12
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.040701,
+   "lon": 72.552973,
+   "name_gu": "કોમર્સ છ રસ્તા"
+  },
+  {
+   "id": "gujarat-university",
+   "name": "Gujarat University",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 13
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.044848,
+   "lon": 72.54353,
+   "name_gu": "ગુજરાત યુનિવર્સિટી સ્ટેશન"
+  },
+  {
+   "id": "gurukul-road",
+   "name": "Gurukul Road",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 14
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.045883,
+   "lon": 72.534873,
+   "name_gu": "ગુરુકુલ રોડ"
+  },
+  {
+   "id": "doordarshan-kendra",
+   "name": "Doordarshan Kendra",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 15
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.048176,
+   "lon": 72.524421,
+   "name_gu": "દૂરદર્શન કેન્દ્ર"
+  },
+  {
+   "id": "thaltej",
+   "name": "Thaltej",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 16
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.049748,
+   "lon": 72.516015,
+   "name_gu": "થલતેજ"
+  },
+  {
+   "id": "thaltej-gam",
+   "name": "Thaltej Gam",
+   "lines": [
+    "EW"
+   ],
+   "order": {
+    "EW": 17
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.050206,
+   "lon": 72.507012,
+   "name_gu": "થલતેજ"
+  },
+  {
+   "id": "pdeu",
+   "name": "PDEU",
+   "lines": [
+    "GIFT"
+   ],
+   "order": {
+    "GIFT": 1
+   },
+   "timing_point": false,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.154864,
+   "lon": 72.661212,
+   "name_gu": "પી ડી પી યુ"
+  },
+  {
+   "id": "gift-city",
+   "name": "GIFT City",
+   "lines": [
+    "GIFT"
+   ],
+   "order": {
+    "GIFT": 2
+   },
+   "timing_point": true,
+   "interchange": false,
+   "integration_from_map": [],
+   "lat": 23.153355,
+   "lon": 72.685554,
+   "name_gu": "ગિફ્ટ સિટી"
+  }
+ ]
+}

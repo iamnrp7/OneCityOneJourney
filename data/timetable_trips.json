@@ -1,0 +1,3323 @@
+{
+ "effective": "2026-05-18",
+ "source": "GMRC Train Information page timetable (Ahmedabad-Gandhinagar Metro Services w.e.f 18 May 2026)",
+ "note": "Only key timing points are published; intermediate station times are NOT in the source.",
+ "trips": [
+  {
+   "id": "N01",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "06:20"
+    },
+    {
+     "station": "old-high-court",
+     "time": "06:34"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "06:52"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "06:55"
+    },
+    {
+     "station": "gnlu",
+     "time": "07:10"
+    },
+    {
+     "station": "infocity",
+     "time": "07:19"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "07:27"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "07:38"
+    }
+   ]
+  },
+  {
+   "id": "S01",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "06:40"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "06:51"
+    },
+    {
+     "station": "infocity",
+     "time": "06:59"
+    },
+    {
+     "station": "gnlu",
+     "time": "07:09"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "07:25"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "07:28"
+    },
+    {
+     "station": "old-high-court",
+     "time": "07:46"
+    },
+    {
+     "station": "apmc",
+     "time": "07:59"
+    }
+   ]
+  },
+  {
+   "id": "N02",
+   "direction": "north",
+   "pattern": "gift_city_branch",
+   "origin": "apmc",
+   "destination": "gift-city",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "06:45"
+    },
+    {
+     "station": "old-high-court",
+     "time": "07:00"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "07:18"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "07:21"
+    },
+    {
+     "station": "gnlu",
+     "time": "07:36"
+    },
+    {
+     "station": "gift-city",
+     "time": "07:42"
+    }
+   ]
+  },
+  {
+   "id": "S02",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "07:33"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "07:45"
+    },
+    {
+     "station": "infocity",
+     "time": "07:53"
+    },
+    {
+     "station": "gnlu",
+     "time": "08:05"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "08:21"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "08:24"
+    },
+    {
+     "station": "old-high-court",
+     "time": "08:42"
+    },
+    {
+     "station": "apmc",
+     "time": "08:56"
+    }
+   ]
+  },
+  {
+   "id": "N03",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "06:58"
+    },
+    {
+     "station": "old-high-court",
+     "time": "07:12"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "07:30"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "07:33"
+    },
+    {
+     "station": "gnlu",
+     "time": "07:48"
+    },
+    {
+     "station": "infocity",
+     "time": "07:57"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "08:05"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "08:16"
+    }
+   ]
+  },
+  {
+   "id": "S03",
+   "direction": "south",
+   "pattern": "gift_city_branch",
+   "origin": "gift-city",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "gift-city",
+     "time": "07:48"
+    },
+    {
+     "station": "gnlu",
+     "time": "07:55"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "08:09"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "08:12"
+    },
+    {
+     "station": "old-high-court",
+     "time": "08:30"
+    },
+    {
+     "station": "apmc",
+     "time": "08:44"
+    }
+   ]
+  },
+  {
+   "id": "N04",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "07:23"
+    },
+    {
+     "station": "old-high-court",
+     "time": "07:37"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "07:55"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "07:58"
+    },
+    {
+     "station": "gnlu",
+     "time": "08:13"
+    },
+    {
+     "station": "infocity",
+     "time": "08:22"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "08:30"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "08:41"
+    }
+   ]
+  },
+  {
+   "id": "S04",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "08:00"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "08:12"
+    },
+    {
+     "station": "infocity",
+     "time": "08:19"
+    },
+    {
+     "station": "gnlu",
+     "time": "08:30"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "08:46"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "08:49"
+    },
+    {
+     "station": "old-high-court",
+     "time": "09:07"
+    },
+    {
+     "station": "apmc",
+     "time": "09:21"
+    }
+   ]
+  },
+  {
+   "id": "N05",
+   "direction": "north",
+   "pattern": "gift_city_branch",
+   "origin": "apmc",
+   "destination": "gift-city",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "07:34"
+    },
+    {
+     "station": "old-high-court",
+     "time": "07:47"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "08:06"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "08:09"
+    },
+    {
+     "station": "gnlu",
+     "time": "08:24"
+    },
+    {
+     "station": "gift-city",
+     "time": "08:30"
+    }
+   ]
+  },
+  {
+   "id": "S05",
+   "direction": "south",
+   "pattern": "gift_city_branch",
+   "origin": "gift-city",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "gift-city",
+     "time": "08:37"
+    },
+    {
+     "station": "gnlu",
+     "time": "08:44"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "08:58"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "09:01"
+    },
+    {
+     "station": "old-high-court",
+     "time": "09:19"
+    },
+    {
+     "station": "apmc",
+     "time": "09:33"
+    }
+   ]
+  },
+  {
+   "id": "N06",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "07:47"
+    },
+    {
+     "station": "old-high-court",
+     "time": "08:01"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "08:19"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "08:22"
+    },
+    {
+     "station": "gnlu",
+     "time": "08:37"
+    },
+    {
+     "station": "infocity",
+     "time": "08:46"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "08:54"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "09:05"
+    }
+   ]
+  },
+  {
+   "id": "S06",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "08:25"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "08:36"
+    },
+    {
+     "station": "infocity",
+     "time": "08:44"
+    },
+    {
+     "station": "gnlu",
+     "time": "08:54"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "09:10"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "09:13"
+    },
+    {
+     "station": "old-high-court",
+     "time": "09:32"
+    },
+    {
+     "station": "apmc",
+     "time": "09:45"
+    }
+   ]
+  },
+  {
+   "id": "N07",
+   "direction": "north",
+   "pattern": "gift_city_branch",
+   "origin": "apmc",
+   "destination": "gift-city",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "08:03"
+    },
+    {
+     "station": "old-high-court",
+     "time": "08:17"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "08:35"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "08:38"
+    },
+    {
+     "station": "gnlu",
+     "time": "08:54"
+    },
+    {
+     "station": "gift-city",
+     "time": "09:01"
+    }
+   ]
+  },
+  {
+   "id": "S07",
+   "direction": "south",
+   "pattern": "gift_city_branch",
+   "origin": "gift-city",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "gift-city",
+     "time": "09:01"
+    },
+    {
+     "station": "gnlu",
+     "time": "09:08"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "09:23"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "09:26"
+    },
+    {
+     "station": "old-high-court",
+     "time": "09:44"
+    },
+    {
+     "station": "apmc",
+     "time": "09:58"
+    }
+   ]
+  },
+  {
+   "id": "N08",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "08:17"
+    },
+    {
+     "station": "old-high-court",
+     "time": "08:31"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "08:49"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "08:52"
+    },
+    {
+     "station": "gnlu",
+     "time": "09:07"
+    },
+    {
+     "station": "infocity",
+     "time": "09:16"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "09:24"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "09:35"
+    }
+   ]
+  },
+  {
+   "id": "S08",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "08:49"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "09:00"
+    },
+    {
+     "station": "infocity",
+     "time": "09:08"
+    },
+    {
+     "station": "gnlu",
+     "time": "09:18"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "09:34"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "09:37"
+    },
+    {
+     "station": "old-high-court",
+     "time": "09:55"
+    },
+    {
+     "station": "apmc",
+     "time": "10:09"
+    }
+   ]
+  },
+  {
+   "id": "N09",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "08:33"
+    },
+    {
+     "station": "old-high-court",
+     "time": "08:47"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "09:05"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "09:08"
+    },
+    {
+     "station": "gnlu",
+     "time": "09:23"
+    },
+    {
+     "station": "infocity",
+     "time": "09:32"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "09:40"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "09:51"
+    }
+   ]
+  },
+  {
+   "id": "S09",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "09:13"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "09:25"
+    },
+    {
+     "station": "infocity",
+     "time": "09:32"
+    },
+    {
+     "station": "gnlu",
+     "time": "09:43"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "09:58"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "10:01"
+    },
+    {
+     "station": "old-high-court",
+     "time": "10:19"
+    },
+    {
+     "station": "apmc",
+     "time": "10:33"
+    }
+   ]
+  },
+  {
+   "id": "N10",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "08:59"
+    },
+    {
+     "station": "old-high-court",
+     "time": "09:13"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "09:31"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "09:34"
+    },
+    {
+     "station": "gnlu",
+     "time": "09:49"
+    },
+    {
+     "station": "infocity",
+     "time": "09:58"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "10:06"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "10:17"
+    }
+   ]
+  },
+  {
+   "id": "S10",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "09:37"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "09:49"
+    },
+    {
+     "station": "infocity",
+     "time": "09:56"
+    },
+    {
+     "station": "gnlu",
+     "time": "10:07"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "10:23"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "10:26"
+    },
+    {
+     "station": "old-high-court",
+     "time": "10:44"
+    },
+    {
+     "station": "apmc",
+     "time": "10:58"
+    }
+   ]
+  },
+  {
+   "id": "N11",
+   "direction": "north",
+   "pattern": "gift_city_branch",
+   "origin": "apmc",
+   "destination": "gift-city",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "09:11"
+    },
+    {
+     "station": "old-high-court",
+     "time": "09:25"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "09:43"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "09:46"
+    },
+    {
+     "station": "gnlu",
+     "time": "10:01"
+    },
+    {
+     "station": "gift-city",
+     "time": "10:07"
+    }
+   ]
+  },
+  {
+   "id": "S11",
+   "direction": "south",
+   "pattern": "gift_city_branch",
+   "origin": "gift-city",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "gift-city",
+     "time": "10:18"
+    },
+    {
+     "station": "gnlu",
+     "time": "10:25"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "10:39"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "10:42"
+    },
+    {
+     "station": "old-high-court",
+     "time": "11:00"
+    },
+    {
+     "station": "apmc",
+     "time": "11:14"
+    }
+   ]
+  },
+  {
+   "id": "N12",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "09:19"
+    },
+    {
+     "station": "old-high-court",
+     "time": "09:33"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "09:51"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "09:54"
+    },
+    {
+     "station": "gnlu",
+     "time": "10:09"
+    },
+    {
+     "station": "infocity",
+     "time": "10:18"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "10:26"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "10:37"
+    }
+   ]
+  },
+  {
+   "id": "S12",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "10:01"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "10:13"
+    },
+    {
+     "station": "infocity",
+     "time": "10:20"
+    },
+    {
+     "station": "gnlu",
+     "time": "10:31"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "10:47"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "10:50"
+    },
+    {
+     "station": "old-high-court",
+     "time": "11:08"
+    },
+    {
+     "station": "apmc",
+     "time": "11:22"
+    }
+   ]
+  },
+  {
+   "id": "N13",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "09:48"
+    },
+    {
+     "station": "old-high-court",
+     "time": "10:02"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "10:20"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "10:23"
+    },
+    {
+     "station": "gnlu",
+     "time": "10:38"
+    },
+    {
+     "station": "infocity",
+     "time": "10:47"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "10:55"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "11:06"
+    }
+   ]
+  },
+  {
+   "id": "S13",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "10:26"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "10:38"
+    },
+    {
+     "station": "infocity",
+     "time": "10:45"
+    },
+    {
+     "station": "gnlu",
+     "time": "10:56"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "11:12"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "11:15"
+    },
+    {
+     "station": "old-high-court",
+     "time": "11:33"
+    },
+    {
+     "station": "apmc",
+     "time": "11:47"
+    }
+   ]
+  },
+  {
+   "id": "N14",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "10:12"
+    },
+    {
+     "station": "old-high-court",
+     "time": "10:26"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "10:44"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "10:47"
+    },
+    {
+     "station": "gnlu",
+     "time": "11:02"
+    },
+    {
+     "station": "infocity",
+     "time": "11:11"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "11:19"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "11:30"
+    }
+   ]
+  },
+  {
+   "id": "S14",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "10:50"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "11:02"
+    },
+    {
+     "station": "infocity",
+     "time": "11:09"
+    },
+    {
+     "station": "gnlu",
+     "time": "11:20"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "11:36"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "11:39"
+    },
+    {
+     "station": "old-high-court",
+     "time": "11:57"
+    },
+    {
+     "station": "apmc",
+     "time": "12:11"
+    }
+   ]
+  },
+  {
+   "id": "N15",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "10:36"
+    },
+    {
+     "station": "old-high-court",
+     "time": "10:50"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "11:08"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "11:11"
+    },
+    {
+     "station": "gnlu",
+     "time": "11:26"
+    },
+    {
+     "station": "infocity",
+     "time": "11:35"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "11:43"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "11:54"
+    }
+   ]
+  },
+  {
+   "id": "S15",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "11:14"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "11:26"
+    },
+    {
+     "station": "infocity",
+     "time": "11:33"
+    },
+    {
+     "station": "gnlu",
+     "time": "11:44"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "12:00"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "12:03"
+    },
+    {
+     "station": "old-high-court",
+     "time": "12:21"
+    },
+    {
+     "station": "apmc",
+     "time": "12:35"
+    }
+   ]
+  },
+  {
+   "id": "N16",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "10:59"
+    },
+    {
+     "station": "old-high-court",
+     "time": "11:13"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "11:32"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "11:35"
+    },
+    {
+     "station": "gnlu",
+     "time": "11:50"
+    },
+    {
+     "station": "infocity",
+     "time": "11:59"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "12:07"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "12:18"
+    }
+   ]
+  },
+  {
+   "id": "S16",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "11:38"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "11:50"
+    },
+    {
+     "station": "infocity",
+     "time": "11:57"
+    },
+    {
+     "station": "gnlu",
+     "time": "12:08"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "12:24"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "12:27"
+    },
+    {
+     "station": "old-high-court",
+     "time": "12:45"
+    },
+    {
+     "station": "apmc",
+     "time": "12:59"
+    }
+   ]
+  },
+  {
+   "id": "N17",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "11:25"
+    },
+    {
+     "station": "old-high-court",
+     "time": "11:39"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "11:57"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "12:00"
+    },
+    {
+     "station": "gnlu",
+     "time": "12:15"
+    },
+    {
+     "station": "infocity",
+     "time": "12:24"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "12:32"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "12:43"
+    }
+   ]
+  },
+  {
+   "id": "S17",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "12:03"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "12:15"
+    },
+    {
+     "station": "infocity",
+     "time": "12:22"
+    },
+    {
+     "station": "gnlu",
+     "time": "12:33"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "12:49"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "12:52"
+    },
+    {
+     "station": "old-high-court",
+     "time": "13:10"
+    },
+    {
+     "station": "apmc",
+     "time": "13:24"
+    }
+   ]
+  },
+  {
+   "id": "N18",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "11:49"
+    },
+    {
+     "station": "old-high-court",
+     "time": "12:03"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "12:21"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "12:24"
+    },
+    {
+     "station": "gnlu",
+     "time": "12:39"
+    },
+    {
+     "station": "infocity",
+     "time": "12:48"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "12:56"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "13:07"
+    }
+   ]
+  },
+  {
+   "id": "S18",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "12:26"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "12:38"
+    },
+    {
+     "station": "infocity",
+     "time": "12:45"
+    },
+    {
+     "station": "gnlu",
+     "time": "12:56"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "13:12"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "13:15"
+    },
+    {
+     "station": "old-high-court",
+     "time": "13:33"
+    },
+    {
+     "station": "apmc",
+     "time": "13:47"
+    }
+   ]
+  },
+  {
+   "id": "N19",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "12:13"
+    },
+    {
+     "station": "old-high-court",
+     "time": "12:27"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "12:45"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "12:48"
+    },
+    {
+     "station": "gnlu",
+     "time": "13:03"
+    },
+    {
+     "station": "infocity",
+     "time": "13:12"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "13:20"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "13:31"
+    }
+   ]
+  },
+  {
+   "id": "S19",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "12:51"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "13:03"
+    },
+    {
+     "station": "infocity",
+     "time": "13:10"
+    },
+    {
+     "station": "gnlu",
+     "time": "13:21"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "13:38"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "13:41"
+    },
+    {
+     "station": "old-high-court",
+     "time": "13:59"
+    },
+    {
+     "station": "apmc",
+     "time": "14:13"
+    }
+   ]
+  },
+  {
+   "id": "N20",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "12:37"
+    },
+    {
+     "station": "old-high-court",
+     "time": "12:51"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "13:09"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "13:12"
+    },
+    {
+     "station": "gnlu",
+     "time": "13:27"
+    },
+    {
+     "station": "infocity",
+     "time": "13:36"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "13:44"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "13:55"
+    }
+   ]
+  },
+  {
+   "id": "S20",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "13:15"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "13:27"
+    },
+    {
+     "station": "infocity",
+     "time": "13:34"
+    },
+    {
+     "station": "gnlu",
+     "time": "13:45"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "14:02"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "14:05"
+    },
+    {
+     "station": "old-high-court",
+     "time": "14:23"
+    },
+    {
+     "station": "apmc",
+     "time": "14:37"
+    }
+   ]
+  },
+  {
+   "id": "N21",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "13:02"
+    },
+    {
+     "station": "old-high-court",
+     "time": "13:16"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "13:34"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "13:37"
+    },
+    {
+     "station": "gnlu",
+     "time": "13:52"
+    },
+    {
+     "station": "infocity",
+     "time": "14:01"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "14:09"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "14:20"
+    }
+   ]
+  },
+  {
+   "id": "S21",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "13:40"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "13:52"
+    },
+    {
+     "station": "infocity",
+     "time": "13:59"
+    },
+    {
+     "station": "gnlu",
+     "time": "14:10"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "14:27"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "14:30"
+    },
+    {
+     "station": "old-high-court",
+     "time": "14:48"
+    },
+    {
+     "station": "apmc",
+     "time": "15:02"
+    }
+   ]
+  },
+  {
+   "id": "N22",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "13:27"
+    },
+    {
+     "station": "old-high-court",
+     "time": "13:41"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "13:59"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "14:02"
+    },
+    {
+     "station": "gnlu",
+     "time": "14:17"
+    },
+    {
+     "station": "infocity",
+     "time": "14:26"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "14:34"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "14:45"
+    }
+   ]
+  },
+  {
+   "id": "S22",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "14:04"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "14:16"
+    },
+    {
+     "station": "infocity",
+     "time": "14:23"
+    },
+    {
+     "station": "gnlu",
+     "time": "14:34"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "14:51"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "14:54"
+    },
+    {
+     "station": "old-high-court",
+     "time": "15:12"
+    },
+    {
+     "station": "apmc",
+     "time": "15:26"
+    }
+   ]
+  },
+  {
+   "id": "N23",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "13:50"
+    },
+    {
+     "station": "old-high-court",
+     "time": "14:04"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "14:22"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "14:25"
+    },
+    {
+     "station": "gnlu",
+     "time": "14:40"
+    },
+    {
+     "station": "infocity",
+     "time": "14:49"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "14:57"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "15:08"
+    }
+   ]
+  },
+  {
+   "id": "S23",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "14:28"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "14:40"
+    },
+    {
+     "station": "infocity",
+     "time": "14:47"
+    },
+    {
+     "station": "gnlu",
+     "time": "14:58"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "15:15"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "15:18"
+    },
+    {
+     "station": "old-high-court",
+     "time": "15:36"
+    },
+    {
+     "station": "apmc",
+     "time": "15:50"
+    }
+   ]
+  },
+  {
+   "id": "N24",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "14:15"
+    },
+    {
+     "station": "old-high-court",
+     "time": "14:29"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "14:47"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "14:50"
+    },
+    {
+     "station": "gnlu",
+     "time": "15:05"
+    },
+    {
+     "station": "infocity",
+     "time": "15:14"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "15:22"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "15:33"
+    }
+   ]
+  },
+  {
+   "id": "S24",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "14:52"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "15:04"
+    },
+    {
+     "station": "infocity",
+     "time": "15:11"
+    },
+    {
+     "station": "gnlu",
+     "time": "15:22"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "15:39"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "15:42"
+    },
+    {
+     "station": "old-high-court",
+     "time": "16:00"
+    },
+    {
+     "station": "apmc",
+     "time": "16:14"
+    }
+   ]
+  },
+  {
+   "id": "N25",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "14:40"
+    },
+    {
+     "station": "old-high-court",
+     "time": "14:54"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "15:12"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "15:15"
+    },
+    {
+     "station": "gnlu",
+     "time": "15:30"
+    },
+    {
+     "station": "infocity",
+     "time": "15:39"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "15:47"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "15:58"
+    }
+   ]
+  },
+  {
+   "id": "S25",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "15:16"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "15:28"
+    },
+    {
+     "station": "infocity",
+     "time": "15:35"
+    },
+    {
+     "station": "gnlu",
+     "time": "15:46"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "16:02"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "16:05"
+    },
+    {
+     "station": "old-high-court",
+     "time": "16:23"
+    },
+    {
+     "station": "apmc",
+     "time": "16:37"
+    }
+   ]
+  },
+  {
+   "id": "N26",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "15:04"
+    },
+    {
+     "station": "old-high-court",
+     "time": "15:18"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "15:36"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "15:39"
+    },
+    {
+     "station": "gnlu",
+     "time": "15:54"
+    },
+    {
+     "station": "infocity",
+     "time": "16:03"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "16:11"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "16:22"
+    }
+   ]
+  },
+  {
+   "id": "S26",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "15:41"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "15:53"
+    },
+    {
+     "station": "infocity",
+     "time": "16:00"
+    },
+    {
+     "station": "gnlu",
+     "time": "16:11"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "16:27"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "16:30"
+    },
+    {
+     "station": "old-high-court",
+     "time": "16:48"
+    },
+    {
+     "station": "apmc",
+     "time": "17:02"
+    }
+   ]
+  },
+  {
+   "id": "N27",
+   "direction": "north",
+   "pattern": "gift_city_branch",
+   "origin": "apmc",
+   "destination": "gift-city",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "15:16"
+    },
+    {
+     "station": "old-high-court",
+     "time": "15:30"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "15:48"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "15:51"
+    },
+    {
+     "station": "gnlu",
+     "time": "16:06"
+    },
+    {
+     "station": "gift-city",
+     "time": "16:12"
+    }
+   ]
+  },
+  {
+   "id": "S27",
+   "direction": "south",
+   "pattern": "gift_city_branch",
+   "origin": "gift-city",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "gift-city",
+     "time": "16:17"
+    },
+    {
+     "station": "gnlu",
+     "time": "16:24"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "16:39"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "16:42"
+    },
+    {
+     "station": "old-high-court",
+     "time": "17:00"
+    },
+    {
+     "station": "apmc",
+     "time": "17:14"
+    }
+   ]
+  },
+  {
+   "id": "N28",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "15:28"
+    },
+    {
+     "station": "old-high-court",
+     "time": "15:42"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "16:00"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "16:03"
+    },
+    {
+     "station": "gnlu",
+     "time": "16:18"
+    },
+    {
+     "station": "infocity",
+     "time": "16:27"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "16:35"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "16:46"
+    }
+   ]
+  },
+  {
+   "id": "S28",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "16:06"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "16:18"
+    },
+    {
+     "station": "infocity",
+     "time": "16:25"
+    },
+    {
+     "station": "gnlu",
+     "time": "16:36"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "16:52"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "16:55"
+    },
+    {
+     "station": "old-high-court",
+     "time": "17:13"
+    },
+    {
+     "station": "apmc",
+     "time": "17:27"
+    }
+   ]
+  },
+  {
+   "id": "N29",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "15:53"
+    },
+    {
+     "station": "old-high-court",
+     "time": "16:07"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "16:25"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "16:28"
+    },
+    {
+     "station": "gnlu",
+     "time": "16:43"
+    },
+    {
+     "station": "infocity",
+     "time": "16:52"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "17:00"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "17:11"
+    }
+   ]
+  },
+  {
+   "id": "S29",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "16:30"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "16:42"
+    },
+    {
+     "station": "infocity",
+     "time": "16:49"
+    },
+    {
+     "station": "gnlu",
+     "time": "17:00"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "17:17"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "17:20"
+    },
+    {
+     "station": "old-high-court",
+     "time": "17:38"
+    },
+    {
+     "station": "apmc",
+     "time": "17:52"
+    }
+   ]
+  },
+  {
+   "id": "N30",
+   "direction": "north",
+   "pattern": "gift_city_branch",
+   "origin": "apmc",
+   "destination": "gift-city",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "16:03"
+    },
+    {
+     "station": "old-high-court",
+     "time": "16:17"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "16:35"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "16:38"
+    },
+    {
+     "station": "gnlu",
+     "time": "16:53"
+    },
+    {
+     "station": "gift-city",
+     "time": "16:59"
+    }
+   ]
+  },
+  {
+   "id": "S30",
+   "direction": "south",
+   "pattern": "gift_city_branch",
+   "origin": "gift-city",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "gift-city",
+     "time": "17:08"
+    },
+    {
+     "station": "gnlu",
+     "time": "17:15"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "17:30"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "17:33"
+    },
+    {
+     "station": "old-high-court",
+     "time": "17:51"
+    },
+    {
+     "station": "apmc",
+     "time": "18:05"
+    }
+   ]
+  },
+  {
+   "id": "N31",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "16:17"
+    },
+    {
+     "station": "old-high-court",
+     "time": "16:31"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "16:49"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "16:52"
+    },
+    {
+     "station": "gnlu",
+     "time": "17:07"
+    },
+    {
+     "station": "infocity",
+     "time": "17:16"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "17:24"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "17:35"
+    }
+   ]
+  },
+  {
+   "id": "S31",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "16:54"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "17:06"
+    },
+    {
+     "station": "infocity",
+     "time": "17:13"
+    },
+    {
+     "station": "gnlu",
+     "time": "17:24"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "17:41"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "17:44"
+    },
+    {
+     "station": "old-high-court",
+     "time": "18:02"
+    },
+    {
+     "station": "apmc",
+     "time": "18:16"
+    }
+   ]
+  },
+  {
+   "id": "N32",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "16:40"
+    },
+    {
+     "station": "old-high-court",
+     "time": "16:54"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "17:13"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "17:16"
+    },
+    {
+     "station": "gnlu",
+     "time": "17:31"
+    },
+    {
+     "station": "infocity",
+     "time": "17:40"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "17:48"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "17:59"
+    }
+   ]
+  },
+  {
+   "id": "S32",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "17:19"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "17:31"
+    },
+    {
+     "station": "infocity",
+     "time": "17:38"
+    },
+    {
+     "station": "gnlu",
+     "time": "17:49"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "18:06"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "18:09"
+    },
+    {
+     "station": "old-high-court",
+     "time": "18:27"
+    },
+    {
+     "station": "apmc",
+     "time": "18:41"
+    }
+   ]
+  },
+  {
+   "id": "N33",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "17:06"
+    },
+    {
+     "station": "old-high-court",
+     "time": "17:20"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "17:38"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "17:41"
+    },
+    {
+     "station": "gnlu",
+     "time": "17:56"
+    },
+    {
+     "station": "infocity",
+     "time": "18:05"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "18:13"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "18:24"
+    }
+   ]
+  },
+  {
+   "id": "S33",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "17:44"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "17:56"
+    },
+    {
+     "station": "infocity",
+     "time": "18:03"
+    },
+    {
+     "station": "gnlu",
+     "time": "18:14"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "18:31"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "18:34"
+    },
+    {
+     "station": "old-high-court",
+     "time": "18:52"
+    },
+    {
+     "station": "apmc",
+     "time": "19:06"
+    }
+   ]
+  },
+  {
+   "id": "N34",
+   "direction": "north",
+   "pattern": "gift_city_branch",
+   "origin": "apmc",
+   "destination": "gift-city",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "17:16"
+    },
+    {
+     "station": "old-high-court",
+     "time": "17:30"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "17:48"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "17:51"
+    },
+    {
+     "station": "gnlu",
+     "time": "18:06"
+    },
+    {
+     "station": "gift-city",
+     "time": "18:12"
+    }
+   ]
+  },
+  {
+   "id": "S34",
+   "direction": "south",
+   "pattern": "gift_city_branch",
+   "origin": "gift-city",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "gift-city",
+     "time": "18:21"
+    },
+    {
+     "station": "gnlu",
+     "time": "18:28"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "18:42"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "18:45"
+    },
+    {
+     "station": "old-high-court",
+     "time": "19:03"
+    },
+    {
+     "station": "apmc",
+     "time": "19:17"
+    }
+   ]
+  },
+  {
+   "id": "N35",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "17:30"
+    },
+    {
+     "station": "old-high-court",
+     "time": "17:44"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "18:02"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "18:05"
+    },
+    {
+     "station": "gnlu",
+     "time": "18:20"
+    },
+    {
+     "station": "infocity",
+     "time": "18:29"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "18:37"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "18:48"
+    }
+   ]
+  },
+  {
+   "id": "S35",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "18:08"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "18:20"
+    },
+    {
+     "station": "infocity",
+     "time": "18:27"
+    },
+    {
+     "station": "gnlu",
+     "time": "18:38"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "18:54"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "18:57"
+    },
+    {
+     "station": "old-high-court",
+     "time": "19:15"
+    },
+    {
+     "station": "apmc",
+     "time": "19:29"
+    }
+   ]
+  },
+  {
+   "id": "N36",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "17:54"
+    },
+    {
+     "station": "old-high-court",
+     "time": "18:08"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "18:26"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "18:29"
+    },
+    {
+     "station": "gnlu",
+     "time": "18:44"
+    },
+    {
+     "station": "infocity",
+     "time": "18:53"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "19:01"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "19:12"
+    }
+   ]
+  },
+  {
+   "id": "S36",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "18:32"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "18:44"
+    },
+    {
+     "station": "infocity",
+     "time": "18:51"
+    },
+    {
+     "station": "gnlu",
+     "time": "19:02"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "19:19"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "19:22"
+    },
+    {
+     "station": "old-high-court",
+     "time": "19:40"
+    },
+    {
+     "station": "apmc",
+     "time": "19:54"
+    }
+   ]
+  },
+  {
+   "id": "N37",
+   "direction": "north",
+   "pattern": "gift_city_branch",
+   "origin": "apmc",
+   "destination": "gift-city",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "18:06"
+    },
+    {
+     "station": "old-high-court",
+     "time": "18:20"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "18:39"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "18:42"
+    },
+    {
+     "station": "gnlu",
+     "time": "18:57"
+    },
+    {
+     "station": "gift-city",
+     "time": "19:03"
+    }
+   ]
+  },
+  {
+   "id": "S37",
+   "direction": "south",
+   "pattern": "gift_city_branch",
+   "origin": "gift-city",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "gift-city",
+     "time": "19:13"
+    },
+    {
+     "station": "gnlu",
+     "time": "19:20"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "19:35"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "19:38"
+    },
+    {
+     "station": "old-high-court",
+     "time": "19:56"
+    },
+    {
+     "station": "apmc",
+     "time": "20:10"
+    }
+   ]
+  },
+  {
+   "id": "N38",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "18:18"
+    },
+    {
+     "station": "old-high-court",
+     "time": "18:32"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "18:50"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "18:53"
+    },
+    {
+     "station": "gnlu",
+     "time": "19:08"
+    },
+    {
+     "station": "infocity",
+     "time": "19:17"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "19:25"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "19:36"
+    }
+   ]
+  },
+  {
+   "id": "S38",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "18:56"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "19:09"
+    },
+    {
+     "station": "infocity",
+     "time": "19:16"
+    },
+    {
+     "station": "gnlu",
+     "time": "19:27"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "19:43"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "19:46"
+    },
+    {
+     "station": "old-high-court",
+     "time": "20:04"
+    },
+    {
+     "station": "apmc",
+     "time": "20:18"
+    }
+   ]
+  },
+  {
+   "id": "N39",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "18:43"
+    },
+    {
+     "station": "old-high-court",
+     "time": "18:57"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "19:15"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "19:18"
+    },
+    {
+     "station": "gnlu",
+     "time": "19:33"
+    },
+    {
+     "station": "infocity",
+     "time": "19:42"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "19:50"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "20:01"
+    }
+   ]
+  },
+  {
+   "id": "S39",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "19:20"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "19:32"
+    },
+    {
+     "station": "infocity",
+     "time": "19:39"
+    },
+    {
+     "station": "gnlu",
+     "time": "19:50"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "20:07"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "20:10"
+    },
+    {
+     "station": "old-high-court",
+     "time": "20:28"
+    },
+    {
+     "station": "apmc",
+     "time": "20:42"
+    }
+   ]
+  },
+  {
+   "id": "N40",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "19:08"
+    },
+    {
+     "station": "old-high-court",
+     "time": "19:22"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "19:40"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "19:43"
+    },
+    {
+     "station": "gnlu",
+     "time": "19:58"
+    },
+    {
+     "station": "infocity",
+     "time": "20:07"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "20:15"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "20:26"
+    }
+   ]
+  },
+  {
+   "id": "S40",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "19:44"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "19:56"
+    },
+    {
+     "station": "infocity",
+     "time": "20:03"
+    },
+    {
+     "station": "gnlu",
+     "time": "20:14"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "20:31"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "20:34"
+    },
+    {
+     "station": "old-high-court",
+     "time": "20:52"
+    },
+    {
+     "station": "apmc",
+     "time": "21:06"
+    }
+   ]
+  },
+  {
+   "id": "N41",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "19:42"
+    },
+    {
+     "station": "old-high-court",
+     "time": "19:56"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "20:14"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "20:17"
+    },
+    {
+     "station": "gnlu",
+     "time": "20:32"
+    },
+    {
+     "station": "infocity",
+     "time": "20:41"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "20:49"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "21:00"
+    }
+   ]
+  },
+  {
+   "id": "S41",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "20:09"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "20:21"
+    },
+    {
+     "station": "infocity",
+     "time": "20:28"
+    },
+    {
+     "station": "gnlu",
+     "time": "20:39"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "20:56"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "20:59"
+    },
+    {
+     "station": "old-high-court",
+     "time": "21:17"
+    },
+    {
+     "station": "apmc",
+     "time": "21:31"
+    }
+   ]
+  },
+  {
+   "id": "N42",
+   "direction": "north",
+   "pattern": "through",
+   "origin": "apmc",
+   "destination": "mahatma-mandir",
+   "stops": [
+    {
+     "station": "apmc",
+     "time": "20:45"
+    },
+    {
+     "station": "old-high-court",
+     "time": "20:59"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "21:17"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "21:20"
+    },
+    {
+     "station": "gnlu",
+     "time": "21:35"
+    },
+    {
+     "station": "infocity",
+     "time": "21:44"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "21:52"
+    },
+    {
+     "station": "mahatma-mandir",
+     "time": "22:03"
+    }
+   ]
+  },
+  {
+   "id": "S42",
+   "direction": "south",
+   "pattern": "through",
+   "origin": "mahatma-mandir",
+   "destination": "apmc",
+   "stops": [
+    {
+     "station": "mahatma-mandir",
+     "time": "21:00"
+    },
+    {
+     "station": "sachivalaya",
+     "time": "21:12"
+    },
+    {
+     "station": "infocity",
+     "time": "21:20"
+    },
+    {
+     "station": "gnlu",
+     "time": "21:31"
+    },
+    {
+     "station": "koteshwar-road",
+     "time": "21:47"
+    },
+    {
+     "station": "motera-stadium",
+     "time": "21:50"
+    },
+    {
+     "station": "old-high-court",
+     "time": "22:09"
+    },
+    {
+     "station": "apmc",
+     "time": "22:22"
+    }
+   ]
+  }
+ ]
+}
